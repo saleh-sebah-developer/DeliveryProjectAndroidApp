@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_main"
+            android:icon="@drawable/ic_main"
+            android:title="@string/menu_main" />
+        <item
+            android:id="@+id/nav_addOrder"
+            android:icon="@drawable/ic_add_circle"
+            android:title="@string/menu_addOrder" />
+        <item
+            android:id="@+id/nav_addItem"
+            android:icon="@drawable/ic_add_circle"
+            android:title="@string/menu_addItem" />
+        <item
+            android:id="@+id/nav_myInformation"
+            android:icon="@drawable/ic_my_information"
+            android:title="@string/menu_myInformation" />
+        <item
+            android:id="@+id/nav_aboutApp"
+            android:icon="@drawable/ic_info"
+            android:title="@string/menu_aboutApp" />
+    </group>
+
+    <item android:title="Communication And LogOut">
+        <menu>
+            <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_share"
+            android:title="@string/menu_share"/>
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_about_app"
+                android:title="@string/menu_help"/>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="@string/menu_logout" />
+        </menu>
+    </item>
+
+
+</menu>

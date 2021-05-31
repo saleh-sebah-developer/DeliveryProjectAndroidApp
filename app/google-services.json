@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "601913862221",
+    "firebase_url": "https://salehdeliveryproject.firebaseio.com",
+    "project_id": "salehdeliveryproject",
+    "storage_bucket": "salehdeliveryproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:601913862221:android:ed8fe3dcd10fb41cdf5404",
+        "android_client_info": {
+          "package_name": "com.example.salehdeliveryproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "601913862221-q5iea8kt5t31jipkamhc7sr6ica9drav.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZ6KNDO0Nw_jvAe98e8Vr1Xc_0vXsV1JU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "601913862221-q5iea8kt5t31jipkamhc7sr6ica9drav.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

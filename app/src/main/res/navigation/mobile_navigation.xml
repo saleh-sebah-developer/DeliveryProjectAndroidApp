@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_main">
+
+    <fragment
+        android:id="@+id/nav_aboutApp"
+        android:name="com.example.salehdeliveryproject.ui.AboutApp.AboutAppFragment"
+        android:label="@string/menu_aboutApp"
+        tools:layout="@layout/about_aap"/>
+    <fragment
+        android:id="@+id/nav_main"
+        android:name="com.example.salehdeliveryproject.ui.ViewAllOrders.MainFragment"
+        android:label="@string/menu_main"
+        tools:layout="@layout/fragment_view_orders" />
+
+    <fragment
+        android:id="@+id/nav_addOrder"
+        android:name="com.example.salehdeliveryproject.ui.AddNewOrder.AddNewOrderFragment"
+        android:label="@string/menu_addOrder"
+        tools:layout="@layout/activity_add_new_order" />
+    <fragment
+        android:id="@+id/nav_addItem"
+        android:name="com.example.salehdeliveryproject.ui.AddNewItem.AddNewItemFragment"
+        android:label="@string/menu_addItem"
+        tools:layout="@layout/activity_add_new_item" />
+
+    <fragment
+        android:id="@+id/nav_myInformation"
+        android:name="com.example.salehdeliveryproject.ui.MyInformation.MyInformationFragment"
+        android:label="@string/menu_myInformation"
+        tools:layout="@layout/fragment_my_information" />
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.example.salehdeliveryproject.ui.Logout.LogOutFragment"
+        android:label="@string/menu_logout"
+        tools:layout="@layout/activity_login_admin" />
+
+
+</navigation>
